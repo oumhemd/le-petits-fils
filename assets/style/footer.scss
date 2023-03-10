@@ -14,16 +14,46 @@
                     font-size: 1.2rem;
                     font-weight: 700;
                     margin-bottom: 1.0rem !important;
-                }
-                
+                }  
             }
         }
     }
 }
 @media screen and (min-width: 1400px){
     .footer{
-        .cont_foot{
+        .container{
             max-width: 1140px;
+        }
+    }
+}
+@media screen and (min-width: 992px){
+    .footer{
+        .container{
+            .row{
+                .colmn-1 {
+                    display: flex;
+                    align-items: flex-end;
+                }
+                .colmn-2 {
+                    text-align: center;
+                }
+                .colmn-3 {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .footer{
+        .container{
+            .row{
+                .mb-5{
+                    margin-bottom: 1.1rem !important;
+                }
+            }
         }
     }
 }

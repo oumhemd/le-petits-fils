@@ -31,7 +31,36 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
-  .footer .cont_foot {
+  .footer .container {
     max-width: 1140px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .footer .container .row .colmn-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .footer .container .row .colmn-2 {
+    text-align: center;
+  }
+  .footer .container .row .colmn-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer .container .row .mb-5 {
+    margin-bottom: 1.1rem !important;
   }
 }
