@@ -7,27 +7,114 @@
     <title> petits fils</title>
      <!-- Core theme CSS (includes Bootstrap)-->
     <link href="assets\style\styles.css" rel="stylesheet" />
-    <!-- -->
-    <link rel="stylesheet" type="text/css" href="assets/style/header.css" />
-    <link rel="stylesheet" type="text/css" href="assets/style/footer.css" />
-    <link rel="stylesheet" href="le-petits-fils/assets/style/bootstrap.min.css">
+    <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--css page -->
+    <link rel="stylesheet" type="text/css" href="assets\style\main.css" />
      <!-- Font Awesome icons (free version)-->
      <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-   
-    
+     
 </head>
 <body>
+    <!-- Mennu-->
     <nav class="navbar" role="navigation">
-      <div class="navbar_logo"><img src="assets/images/logo.png" alt=""></div>
+      <div class="navbar_logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
       <ul class="navbar-links">
-        <li class="navbar-link first"><a href="#">Histoires de familles</a></li>
-        <li class="navbar-link second"><a href="#">Astuces d’aidants</a></li>
-        <li class="navbar-link thirt"><a href="#">Recettes familiales</a></li>
+        <li class="navbar-link first"><a href="histoire-famille.html">Histoires de familles</a></li>
+        <li class="navbar-link second"><a href="astuces-daidants.html">Astuces d’aidants</a></li>
+        <li class="navbar-link thirt"><a href="recette-familles.html">Recettes familiales</a></li>
       </ul>
       <button class="burger" >
         <span class="bar"></span>
       </button>
     </nav> 
+    <!-- body-->
+    <section class="cont-aidant">
+        <div class="container cont1">
+           <div class="row row-column1">
+            <div class="card mb-3 border-0 rounded-0">
+                <div class="row row-aidant">
+                  <div class="col-md-6 col-blc">
+                    <div class="card-body body-text">
+                      <h1 class="card-title">Chers aidants,</br><span class="txt-laissez-nous">laissez-nous vous aider !</span></h1>
+                      <p class="card-text"><strong>11 millions de Français, vous êtes aidants familiaux.</strong></br> Merci d’avoir fait confiance à <u>Petits-fils</u> pour accompagner</br> votre proche âgé !</br></br> Cet espace et ces contenus vous sont dédiés, pour <strong>valoriser</br> vos combats et apporter des réponses à vos questionnements.</strong></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 text-end">
+                    <img src="assets/images/img1.png" class="img-fluid rounded-0" alt="...">
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
+    </section>
+    <section class="content-saviez">
+        <div class="container cont-bloc2">
+            <div class="row col1-bloc2">
+                <div class="col-md-12 bloc2-txt1">
+                    <h2 class="txt-saviez">Le saviez-vous ?</h2>
+                    <p class="txt-petits">Petits-fils met tous les jours de nombreux services à votre disposition !</p>
+                </div>
+            </div>
+           <div class="row content-bloc2 swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="col-md-6 col2-bloc2 swiper-slide">
+                        <div class="bloc2-txt1">
+                            <div class="col1-renseign">
+                                <img src="assets/images/img4.png" alt="">
+                                <h3>Renseignez-vous sur la perte<br/> d’autonomie</h3>
+                                <p>Petits-fils met à votre disposition un ensemble de pages et de fiches pratiques pour vous permettre de <strong>mieux comprendre et de mieux appréhender la perte d’autonomie d’un proche âgé.</strong> N’hésitez pas à les consulter !</p>
+                                <button class="bnt"><a href="#">JE M’INFORME</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col2-bloc2 swiper-slide">
+                        <div class="bloc2-txt1">
+                            <div class="col1-renseign">
+                                <img src="assets/images/img4.png" alt="">
+                                <h3>Renseignez-vous sur la perte<br/> d’autonomie</h3>
+                                <p>Petits-fils met à votre disposition un ensemble de pages et de fiches pratiques pour vous permettre de <strong>mieux comprendre et de mieux appréhender la perte d’autonomie d’un proche âgé.</strong> N’hésitez pas à les consulter !</p>
+                                <button class="bnt"><a href="#">JE M’INFORME</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col2-bloc2 swiper-slide">
+                        <div class="bloc2-txt1">
+                            <div class="col1-renseign">
+                                <img src="assets/images/img4.png" alt="">
+                                <h3>Renseignez-vous sur la perte<br/> d’autonomie</h3>
+                                <p>Petits-fils met à votre disposition un ensemble de pages et de fiches pratiques pour vous permettre de <strong>mieux comprendre et de mieux appréhender la perte d’autonomie d’un proche âgé.</strong> N’hésitez pas à les consulter !</p>
+                                <button class="bnt"><a href="#">JE M’INFORME</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col2-bloc2 swiper-slide">
+                        <div class="bloc2-txt1">
+                            <div class="col1-renseign">
+                                <img src="assets/images/img4.png" alt="">
+                                <h3>Renseignez-vous sur la perte<br/> d’autonomie</h3>
+                                <p>Petits-fils met à votre disposition un ensemble de pages et de fiches pratiques pour vous permettre de <strong>mieux comprendre et de mieux appréhender la perte d’autonomie d’un proche âgé.</strong> N’hésitez pas à les consulter !</p>
+                                <button class="bnt"><a href="#">JE M’INFORME</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col2-bloc2 swiper-slide">
+                        <div class="bloc2-txt1">
+                            <div class="col1-renseign">
+                                <img src="assets/images/img4.png" alt="">
+                                <h3>Renseignez-vous sur la perte<br/> d’autonomie</h3>
+                                <p>Petits-fils met à votre disposition un ensemble de pages et de fiches pratiques pour vous permettre de <strong>mieux comprendre et de mieux appréhender la perte d’autonomie d’un proche âgé.</strong> N’hésitez pas à les consulter !</p>
+                                <button class="bnt"><a href="#">JE M’INFORME</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+           </div>
+        </div>
+    </section>
+
      <!-- Footer-->
      <footer class="footer text-left">
       <div class="container">
@@ -55,6 +142,7 @@
           </div>
       </div>
      </footer>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

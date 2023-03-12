@@ -27,7 +27,8 @@
    }
 
    /* effet hover Mennu*/
-   @media screen and (min-width:768px){
+   @media screen and (min-width:767px){
+      padding: 0 20px;
       .navbar-links { 
          .navbar-link { 
             > a {
@@ -71,6 +72,7 @@
         right: 0;
         background: $main-color;
         transition: all .5s ease-in-out;
+        z-index: 1;
         .navbar-link{
          transform: translateX(101%);
          > a {

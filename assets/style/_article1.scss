@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import 'variables';
+@import 'global';
+.section-article1{
+    padding: 40px 0;
+    .content-article1{
+        .row-article1{
+            .col-blc1-article1{
+                .lien-article1{
+                    font-size: 14px;
+                    padding-bottom: 28px;
+                    margin-bottom: 0;
+                    a{
+                        text-decoration: none;
+                        color: $color-black;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .col-hour{
+                    display: flex;
+                    align-items: center;
+                    color: $second-color;
+                    margin-bottom: 0;
+                    img{
+                        padding-bottom: 0;
+                        padding-right: 7px;
+                    }
+                }   
+                .h2-article1{
+                    color: $main-color;
+                    font-size: 2rem;
+                    line-height: 42px;
+                    padding-bottom: 26px;
+                    margin-bottom: 0;
+                }
+                img{
+                    padding-bottom: 45px;
+                }
+                .totxt{
+                    .txt-30{
+                        font-size: 1rem;
+                        color: $main-color;
+                        font-weight: 700;
+                    }
+                    .txt-article1{
+                        padding-bottom: 40px;
+                        line-height: 25px;
+                        color: $color-gris;
+                        margin-bottom: 0;
+                       
+                    }
+                    .h3-article2{
+                        font-size: 1rem;
+                        color: $color-black;
+                        font-weight: 700;
+                    }
+                    .h3-article1{
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: $color-black;
+                        padding-bottom: 12px;
+                    }
+                    .chiffre-text{
+                        font-size: 14px;
+                        color: $color-gris;
+                        padding-bottom: 45px;
+                        margin-bottom: 0;
+                    }
+                    .txt-partage{
+                        font-size: 18px;
+                        color: $main-color;
+                        padding-bottom: 12px;
+                        font-weight: 700;
+                        margin-bottom: 0;
+                        line-height: 27px;
+                    }
+                    .btn-outline-light {
+                        color: $main-color;
+                        border-color: $main-color;
+                        i{
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 900px){
+    .col-blc1-article1{
+        .totxt{
+            max-width: 848px;
+        }
+     }
+}
+@media screen and (max-width: 600px){
+    .section-article1{
+        padding: 10px 0 20px;
+        .content-article1{
+            .row-article1{
+                .col-blc1-article1{
+                    .lien-article1{
+                        padding-bottom: 15px;
+                    }
+                    .h2-article1{
+                        font-size: 1.3rem !important;
+                        line-height: 28px !important;
+                    }
+                    img{
+                        padding-bottom: 20px;
+                    }
+                    .totxt{
+                        .txt-article1{
+                            padding-bottom: 20px
+                        }
+                        .chiffre-text{
+                            padding-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+     }
+}
